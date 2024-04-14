@@ -9,7 +9,7 @@ f.close()
 class FlappyBirdGame:
         def __init__(self):
             self.root = tk.Tk()
-            self.root.title("Flappy Bird")
+            self.root.title("Evolution")
             self.canvas = tk.Canvas(self.root, width=400, height=400)
             self.root.geometry("400x400+100+100")
             self.canvas.pack()
